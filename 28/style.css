@@ -35,7 +35,6 @@ a:hover{
 }
 .pro ul{
     list-style:none;
-    text-align: center;
     padding-right: 30px;
 }
 .pro1 ul{
@@ -81,6 +80,9 @@ li{
     height: 300px;
     width: 625px;
 }
+.image4{
+    height: 300px;
+}
 .setumei{
     text-align: center;
 }
@@ -114,4 +116,13 @@ li{
 }
 .kakuni1:hover{
     color: #fff;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
