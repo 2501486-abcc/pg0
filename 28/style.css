@@ -22,7 +22,7 @@ a:hover{
     color: black;
 }
 .image{
-    height: 400px;
+    height: 450px;
 }
 .pro{
     border-radius: 50%;
@@ -63,6 +63,8 @@ li{
 .shokai{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    box-sizing: border-box;
 }
 .image1{
     height: 400px;
@@ -120,9 +122,30 @@ li{
 .fade-in {
   opacity: 0;
   animation: fadeIn 2s ease forwards;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
 }
 @keyframes fadeIn {
   to {
     opacity: 1;
   }
+}
+#welcome {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+.welcome2{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
